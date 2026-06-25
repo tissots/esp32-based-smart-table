@@ -22,6 +22,8 @@ The system sits on a table (or wherever you mount it) and makes decisions automa
 * **R2 and R3** are manual relays you can toggle via button or Bluetooth
 * Everything can be overridden manually via Bluetooth commands or the physical buttons
 
+![image alt](https://github.com/tissots/esp32-based-smart-table/blob/main/IMG_20260519_134951_208.jpg?raw=true)
+
 The goal was to avoid false triggers — the kind where a PIR sensor twitches for two seconds and the lights flash on at 2am. So there's proper debouncing: the system requires sustained motion and sustained darkness before it acts.
 
 ---
@@ -43,6 +45,8 @@ The goal was to avoid false triggers — the kind where a PIR sensor twitches fo
 | **DHT11** | GPIO 4 | Temperature + humidity |
 
 > **Hardware Note:** The 5 buttons share a single ADC pin via a resistor ladder. Each button produces a different voltage level — the code maps ADC ranges to button numbers.
+
+![image alt](https://github.com/tissots/esp32-based-smart-table/blob/main/IMG_20260517_104016_249.jpg?raw=true)
 
 ---
 
@@ -66,6 +70,8 @@ This project uses PlatformIO. If you do not have it, install the VSCode extensio
 4. **Deploy:** Upload and open the Serial Monitor at 115200 baud
 
 ---
+
+![image alt](https://github.com/tissots/esp32-based-smart-table/blob/main/IMG_20260517_104001_886.jpg?raw=true)
 
 ## <font color="#9b59b6">Task structure</font>
 
