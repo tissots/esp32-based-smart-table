@@ -245,8 +245,4 @@ Saved parameters include:
  * **Clock Drift:** The soft clock drifts roughly ±a few seconds per operational hour.
  * **Bluetooth Constraints:** Uses Classic Bluetooth; iOS devices do not connect natively without BLE support.
 ## <font color="#576574">License</font>
-This project is licensed under unrestrictive terms — feel free to modify, deploy, and distribute. Code improvements regarding debouncing routines or NTP expansion are welcome.
-```
-_
-
-```
+This project is licensed under unrestrictive terms — feel free to modify, deploy, and distribute. Code improvements regarding debouncing routines or NTP expansion are welcome
